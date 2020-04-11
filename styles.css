@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Gotu|Poppins:600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background: #fc5185;
+    color: white;
+}
+header{
+    box-sizing: border-box;
+    background-color: #364f6b;
+    color: white;
+    height: 15vh;
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+}
+h1{
+    background: #364f6b;
+    font-size: 3em;
+}
+section{
+    font-family: 'Gotu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+.scores{
+    font-size: 2em;
+}
+.userAction{
+    margin-top: 70px;
+}
+/* styling for game icons */
+img{
+    margin: 30px 20px 10px;
+    width: 120px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+     margin-top: 50px;
+    
+}
+
+/* MEDIA QUERIES */
+
+@media screen and ( max-width: 700px ){
+    h1{
+        background: #364f6b;
+        font-size: 2em;
+    }
+}
+
+@media screen and ( max-width: 350px ){
+    h1{
+        background: #364f6b;
+        font-size: 2em;
+    }
+    header{
+        box-sizing: border-box;
+        background-color: #364f6b;
+        color: white;
+        height: 20vh;
+        text-align: center;
+        padding-top: 2%;
+        font-family: 'Poppins', serif;
+        font-weight: 600;
+    }
+    section{
+        font-family: 'Gotu', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 2px;
+    
+    }
+    img{
+        margin: 30px 20px 10px;
+        width: 90px;
+        cursor: pointer;
+    }
+}
